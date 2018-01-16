@@ -125,6 +125,15 @@ img, video, audio {
 }
 
 /*Section*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1; 
+}
+
 section {
 padding: 20px;
 margin-bottom: 20px;
@@ -144,5 +153,5 @@ margin-bottom: 20px;
   display: block;
   width: 40px;
   height: 40px;
-  background: yellow; 
+  background: yellow;
 }
